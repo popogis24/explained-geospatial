@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explained-geospatial"
+version = "0.1.0"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" },
+]
+description = "Uma série de notebooks Jupyter explicando dados geoespaciais em Python"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "jupyter==1.0.0",
+    "notebook==7.0.7",
+    "geopandas==0.14.3",
+    "rasterio==1.3.9",
+    "folium==0.15.1",
+    "matplotlib==3.8.3",
+    "numpy==1.26.4",
+    "shapely==2.0.3",
+    "pyproj==3.6.1",
+    "pandas==2.2.1",
+    "contextily==1.4.0",
+    "rasterstats==0.19.0",
+    "seaborn==0.13.2",
+    "fiona==1.9.5",
+    "rtree==1.1.0",
+    "scipy==1.12.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/seu-usuario/explained-geospatial"
+"Bug Tracker" = "https://github.com/seu-usuario/explained-geospatial/issues"
+
+[tool.setuptools]
+packages = []  # Este é um projeto baseado em notebooks, não um pacote Python tradicional
