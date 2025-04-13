@@ -85,7 +85,8 @@ Para executar os notebooks, você precisará das seguintes bibliotecas Python:
 
 ```bash
 
-pip install -r requirements.txt
+pip install -U -e .
+
 
 ```
 
@@ -121,7 +122,7 @@ pip install -U -e .
 
 ```
 
-3. Inicie o Jupyter Notebook:
+3. Inicie o Jupyter Notebook (opcional, rode isso apenas se quiser usar pelo navegador)
 
 ```bash
 
